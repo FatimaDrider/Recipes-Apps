@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:elevation="8dp"
+    android:id="@+id/list_inscructions_etapes"
+    app:cardBackgroundColor="@color/white"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView_inscructions_etapes_nombre"
+                android:textSize="16sp"
+                android:text="1"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:textColor="@color/secondycolo"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:id="@+id/textView_inscructions_etapes_titre"
+                android:textSize="16sp"
+                android:text="nom de l'étape"
+                android:textAlignment="textStart"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="Equipements "
+        android:textColor="@color/secondycolo"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textSize="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_instructions_equipements"
+       android:layout_margin="4dp" android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Ingredients "
+                android:textColor="@color/secondycolo"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textSize="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_instructions_ingredients"
+
+                android:layout_margin="4dp" android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
