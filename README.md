@@ -13,8 +13,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Register
 ![pp](https://user-images.githubusercontent.com/55744826/185987476-931d1545-026f-473c-9da2-601402d558a6.jpg)
 
-### Prodoct List
-![list-produit](https://user-images.githubusercontent.com/55744826/154862027-af194358-40b3-4e8a-a3a3-e6ced11135ca.PNG)
 
 ## Technologie
 * Android Studio 
